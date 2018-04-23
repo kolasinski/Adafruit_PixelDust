@@ -12,7 +12,7 @@ BUTTON_MODE  = 19  # Cycle between modes
 BUTTON_RESET = 25  # Restart current mode
 BUTTONS      = [BUTTON_RESET, BUTTON_MODE]
 PROGRAMS     = ["demo1-snow", "demo2-hourglass", "demo3-logo"]
-FLAGS        = ["--led-rgb-sequence=rbg", "--led-brightness=100"]
+FLAGS        = ["--led-rgb-sequence=rbg", "--led-brightness=100", "--led-row-addr-type=1"]
 MODE         = 0
 PROCESS      = None
 
